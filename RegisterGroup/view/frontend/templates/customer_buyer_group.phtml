@@ -1,0 +1,19 @@
+<?php $options = $block->getCustomerAttributeValues(); ?>
+<?php $param = $block->getParam() ? $block->getParam() : '';?>
+<fieldset class="fieldset create account" data-hasrequired="<?php /* @escapeNotVerified */ echo __('* Required Fields') ?>">
+    <legend class="legend"><span><?php /* @escapeNotVerified */ echo __('Additional Information') ?></span></legend>
+    <p>
+        <div class="input-box field ">
+            <label class="label" for="customer_buyer_group">
+                <span><?php echo __('Buyer group')?></span>
+            </label>
+            <div class="control">
+                <select name="customer_buyer_group" id="customer_buyer_group">
+                    <?php foreach($options as $option):?>
+                        <option value='<?php echo $option['value']?>' <?=$param == $option['value'] ? 'selected' : ''; ?>><?php echo __($option['label'])?></option>
+                    <?php endforeach; ?>
+                </select>
+            </div>
+        </div>
+    </p>
+</fieldset>

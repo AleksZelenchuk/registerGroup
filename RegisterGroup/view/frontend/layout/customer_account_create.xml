@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="form.additional.info">
+        <referenceContainer name="content">
+            <block class="Fantronix\RegisterGroup\Block\Option"
+                   name="image_customer_buyer_group"
+                   template="Fantronix_RegisterGroup::customer_register_header_img.phtml" before="-"/>
+        </referenceContainer>
+            <block class="Fantronix\RegisterGroup\Block\Option"
+                   name="additional_info_customer_buyer_group"
+                   template="Fantronix_RegisterGroup::customer_buyer_group.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
