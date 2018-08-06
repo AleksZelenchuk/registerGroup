@@ -1,15 +1,10 @@
 <?php
 
-namespace Fantronix\RegisterGroup\Model\Config\Source;
+namespace Namespace\RegisterGroup\Model\Config\Source;
 
 use Magento\Eav\Model\ResourceModel\Entity\Attribute\OptionFactory;
 use Magento\Framework\DB\Ddl\Table;
 
-/**
- * Custom Attribute Renderer
- *
- * @author      Webkul Core Team <support@webkul.com>
- */
 class Options extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSource
 {
     /**
