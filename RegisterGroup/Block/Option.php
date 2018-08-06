@@ -1,6 +1,6 @@
 <?php
 
-namespace Fantronix\RegisterGroup\Block;
+namespace Namespace\RegisterGroup\Block;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 
