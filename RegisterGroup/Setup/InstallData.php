@@ -1,6 +1,6 @@
 <?php
 
-namespace Fantronix\RegisterGroup\Setup;
+namespace Namespace\RegisterGroup\Setup;
 
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
